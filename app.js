@@ -16,6 +16,60 @@ var coluna2 = []
 var coluna3 = []
 var diagonal1 = []
 var diagonal2 = []
+function testarBotao1 () {
+    if (document.getElementById('botao1').innerHTML == 'X' || document.getElementById('botao1').innerHTML == 'O'){
+        throw new Error()
+
+    }
+}
+function testarBotao2 () {
+    if (document.getElementById('botao2').innerHTML == 'X' || document.getElementById('botao2').innerHTML == 'O'){
+        throw new Error()
+
+    }
+}
+function testarBotao3 () {
+    if (document.getElementById('botao3').innerHTML == 'X' || document.getElementById('botao3').innerHTML == 'O'){
+        throw new Error()
+
+    }
+}
+function testarBotao4 () {
+    if (document.getElementById('botao4').innerHTML == 'X' || document.getElementById('botao4').innerHTML == 'O'){
+        throw new Error()
+
+    }
+}
+function testarBotao5 () {
+    if (document.getElementById('botao5').innerHTML == 'X' || document.getElementById('botao5').innerHTML == 'O'){
+        throw new Error()
+
+    }
+}
+function testarBotao6 () {
+    if (document.getElementById('botao6').innerHTML == 'X' || document.getElementById('botao6').innerHTML == 'O'){
+        throw new Error()
+
+    }
+}
+function testarBotao7 () {
+    if (document.getElementById('botao7').innerHTML == 'X' || document.getElementById('botao7').innerHTML == 'O'){
+        throw new Error()
+
+    }
+}
+function testarBotao8 () {
+    if (document.getElementById('botao8').innerHTML == 'X' || document.getElementById('botao8').innerHTML == 'O'){
+        throw new Error()
+
+    }
+}
+function testarBotao9 () {
+    if (document.getElementById('botao9').innerHTML == 'X' || document.getElementById('botao').innerHTML == 'O'){
+        throw new Error()
+
+    }
+}
 function povoarBotao () {
     
     if (jogador == 'x'){
@@ -33,6 +87,8 @@ function povoarBotao () {
         coluna1.push('O')
         return jogador = 'x'
     }
+
+
 
 }
 function povoarBotao2 () {
