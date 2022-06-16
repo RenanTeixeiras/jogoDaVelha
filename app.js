@@ -65,7 +65,7 @@ function testarBotao8 () {
     }
 }
 function testarBotao9 () {
-    if (document.getElementById('botao9').innerHTML == 'X' || document.getElementById('botao').innerHTML == 'O'){
+    if (document.getElementById('botao9').innerHTML == 'X' || document.getElementById('botao9').innerHTML == 'O'){
         throw new Error()
 
     }
