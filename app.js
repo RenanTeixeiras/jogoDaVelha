@@ -242,72 +242,232 @@ function resultadoFinal () {
     for (i=0; i < linha1.length ; i++){
         if (linha1[0] == 'X' && linha1[1] == 'X'  && linha1[2] == 'X'){
             alert('X ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "X ganhou!"
+            document.getElementById('botao1').innerHTML = 'X'
+            document.getElementById('botao2').innerHTML = 'X'
+            document.getElementById('botao3').innerHTML = 'X'
+            document.getElementById('botao4').innerHTML = 'X'
+            document.getElementById('botao5').innerHTML = 'X'
+            document.getElementById('botao6').innerHTML = 'X'
+            document.getElementById('botao7').innerHTML = 'X'
+            document.getElementById('botao8').innerHTML = 'X'
+            document.getElementById('botao9').innerHTML = 'X'
             break
         } else if (linha1[0] == 'O' && linha1[1] == 'O'  && linha1[2] == 'O'){
             alert('O ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "O ganhou!"
+            document.getElementById('botao1').innerHTML = 'O'
+            document.getElementById('botao2').innerHTML = 'O'
+            document.getElementById('botao3').innerHTML = 'O'
+            document.getElementById('botao4').innerHTML = 'O'
+            document.getElementById('botao5').innerHTML = 'O'
+            document.getElementById('botao6').innerHTML = 'O'
+            document.getElementById('botao7').innerHTML = 'O'
+            document.getElementById('botao8').innerHTML = 'O'
+            document.getElementById('botao9').innerHTML = 'O'
             break
     }
 }
     for (i=0; i < linha2.length; i++){
         if (linha2[0] == 'X' && linha2[1] == 'X' && linha2[2] == 'X'){
             alert('X ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "X ganhou!"
+            document.getElementById('botao1').innerHTML = 'X'
+            document.getElementById('botao2').innerHTML = 'X'
+            document.getElementById('botao3').innerHTML = 'X'
+            document.getElementById('botao4').innerHTML = 'X'
+            document.getElementById('botao5').innerHTML = 'X'
+            document.getElementById('botao6').innerHTML = 'X'
+            document.getElementById('botao7').innerHTML = 'X'
+            document.getElementById('botao8').innerHTML = 'X'
+            document.getElementById('botao9').innerHTML = 'X'
             break
         }   else if (linha2[0] == 'O' && linha2[1] == 'O'  && linha2[2] == 'O'){
             alert('O ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "O ganhou!"
+            document.getElementById('botao1').innerHTML = 'O'
+            document.getElementById('botao2').innerHTML = 'O'
+            document.getElementById('botao3').innerHTML = 'O'
+            document.getElementById('botao4').innerHTML = 'O'
+            document.getElementById('botao5').innerHTML = 'O'
+            document.getElementById('botao6').innerHTML = 'O'
+            document.getElementById('botao7').innerHTML = 'O'
+            document.getElementById('botao8').innerHTML = 'O'
+            document.getElementById('botao9').innerHTML = 'O'
             break
     }
     }
     for (i=0; i < linha3.length; i++){
         if (linha3[0] == 'X' && linha3[1] == 'X' && linha3[2] == 'X'){
             alert('X ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "X ganhou!"
+            document.getElementById('botao1').innerHTML = 'X'
+            document.getElementById('botao2').innerHTML = 'X'
+            document.getElementById('botao3').innerHTML = 'X'
+            document.getElementById('botao4').innerHTML = 'X'
+            document.getElementById('botao5').innerHTML = 'X'
+            document.getElementById('botao6').innerHTML = 'X'
+            document.getElementById('botao7').innerHTML = 'X'
+            document.getElementById('botao8').innerHTML = 'X'
+            document.getElementById('botao9').innerHTML = 'X'
             break
         } else if (linha3[0] == 'O' && linha3[1] == 'O'  && linha3[2] == 'O'){
             alert('O ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "O ganhou!"
+            document.getElementById('botao1').innerHTML = 'O'
+            document.getElementById('botao2').innerHTML = 'O'
+            document.getElementById('botao3').innerHTML = 'O'
+            document.getElementById('botao4').innerHTML = 'O'
+            document.getElementById('botao5').innerHTML = 'O'
+            document.getElementById('botao6').innerHTML = 'O'
+            document.getElementById('botao7').innerHTML = 'O'
+            document.getElementById('botao8').innerHTML = 'O'
+            document.getElementById('botao9').innerHTML = 'O'
             break
     }
     }
     for (i=0; i < coluna1.length; i++){
         if (coluna1[0] == 'X' && coluna1[1] == 'X' && coluna1[2] == 'X'){
             alert('X ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "X ganhou!"
+            document.getElementById('botao1').innerHTML = 'X'
+            document.getElementById('botao2').innerHTML = 'X'
+            document.getElementById('botao3').innerHTML = 'X'
+            document.getElementById('botao4').innerHTML = 'X'
+            document.getElementById('botao5').innerHTML = 'X'
+            document.getElementById('botao6').innerHTML = 'X'
+            document.getElementById('botao7').innerHTML = 'X'
+            document.getElementById('botao8').innerHTML = 'X'
+            document.getElementById('botao9').innerHTML = 'X'
             break
         } else if (coluna1[0] == 'O' && coluna1[1] == 'O' && coluna1[2] == 'O'){
             alert('O ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "O ganhou!"
+            document.getElementById('botao1').innerHTML = 'O'
+            document.getElementById('botao2').innerHTML = 'O'
+            document.getElementById('botao3').innerHTML = 'O'
+            document.getElementById('botao4').innerHTML = 'O'
+            document.getElementById('botao5').innerHTML = 'O'
+            document.getElementById('botao6').innerHTML = 'O'
+            document.getElementById('botao7').innerHTML = 'O'
+            document.getElementById('botao8').innerHTML = 'O'
+            document.getElementById('botao9').innerHTML = 'O'
             break
     }
 }
     for (i=0; i < coluna2.length; i++){
         if (coluna2[0] == 'X' && coluna2[1] == 'X' && coluna2[2] == 'X'){
             alert('X ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "X ganhou!"
+            document.getElementById('botao1').innerHTML = 'X'
+            document.getElementById('botao2').innerHTML = 'X'
+            document.getElementById('botao3').innerHTML = 'X'
+            document.getElementById('botao4').innerHTML = 'X'
+            document.getElementById('botao5').innerHTML = 'X'
+            document.getElementById('botao6').innerHTML = 'X'
+            document.getElementById('botao7').innerHTML = 'X'
+            document.getElementById('botao8').innerHTML = 'X'
+            document.getElementById('botao9').innerHTML = 'X'
             break
         }   else if (coluna2[0] == 'O' && coluna2[1] == 'O' && coluna2[2] == 'O'){
             alert('O ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "O ganhou!"
+            document.getElementById('botao1').innerHTML = 'O'
+            document.getElementById('botao2').innerHTML = 'O'
+            document.getElementById('botao3').innerHTML = 'O'
+            document.getElementById('botao4').innerHTML = 'O'
+            document.getElementById('botao5').innerHTML = 'O'
+            document.getElementById('botao6').innerHTML = 'O'
+            document.getElementById('botao7').innerHTML = 'O'
+            document.getElementById('botao8').innerHTML = 'O'
+            document.getElementById('botao9').innerHTML = 'O'
             break
     }
     }
     for (i=0; i < coluna3.length; i++){
         if (coluna3[0] == 'X' && coluna3[1] == 'X' && coluna3[2] == 'X'){
             alert('X ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "X ganhou!"
+            document.getElementById('botao1').innerHTML = 'X'
+            document.getElementById('botao2').innerHTML = 'X'
+            document.getElementById('botao3').innerHTML = 'X'
+            document.getElementById('botao4').innerHTML = 'X'
+            document.getElementById('botao5').innerHTML = 'X'
+            document.getElementById('botao6').innerHTML = 'X'
+            document.getElementById('botao7').innerHTML = 'X'
+            document.getElementById('botao8').innerHTML = 'X'
+            document.getElementById('botao9').innerHTML = 'X'
             break
         } else if (coluna3[0] == 'O' && coluna3[1] == 'O' && coluna3[2] == 'O'){
             alert('O ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "O ganhou!"
+            document.getElementById('botao1').innerHTML = 'O'
+            document.getElementById('botao2').innerHTML = 'O'
+            document.getElementById('botao3').innerHTML = 'O'
+            document.getElementById('botao4').innerHTML = 'O'
+            document.getElementById('botao5').innerHTML = 'O'
+            document.getElementById('botao6').innerHTML = 'O'
+            document.getElementById('botao7').innerHTML = 'O'
+            document.getElementById('botao8').innerHTML = 'O'
+            document.getElementById('botao9').innerHTML = 'O'
             break
     }
     }
     for (i=0; i < diagonal1.length; i++){
         if (diagonal1[0] == 'X' && diagonal1[1] == 'X' && diagonal1[2] == 'X'){
             alert('X ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "X ganhou!"
+            document.getElementById('botao1').innerHTML = 'X'
+            document.getElementById('botao2').innerHTML = 'X'
+            document.getElementById('botao3').innerHTML = 'X'
+            document.getElementById('botao4').innerHTML = 'X'
+            document.getElementById('botao5').innerHTML = 'X'
+            document.getElementById('botao6').innerHTML = 'X'
+            document.getElementById('botao7').innerHTML = 'X'
+            document.getElementById('botao8').innerHTML = 'X'
+            document.getElementById('botao9').innerHTML = 'X'
             break
         } else if (diagonal1[0] == 'O' && diagonal1[1] == 'O' && diagonal1[2] == 'O'){
             alert('O ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "O ganhou!"
+            document.getElementById('botao1').innerHTML = 'O'
+            document.getElementById('botao2').innerHTML = 'O'
+            document.getElementById('botao3').innerHTML = 'O'
+            document.getElementById('botao4').innerHTML = 'O'
+            document.getElementById('botao5').innerHTML = 'O'
+            document.getElementById('botao6').innerHTML = 'O'
+            document.getElementById('botao7').innerHTML = 'O'
+            document.getElementById('botao8').innerHTML = 'O'
+            document.getElementById('botao9').innerHTML = 'O'
             break
     }
     }
     for (i=0; i < diagonal2.length; i++){
         if (diagonal2[0] == 'X' && diagonal2[1] == 'X' && diagonal2[2] == 'X'){
             alert('X ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "X ganhou!"
+            document.getElementById('botao1').innerHTML = 'X'
+            document.getElementById('botao2').innerHTML = 'X'
+            document.getElementById('botao3').innerHTML = 'X'
+            document.getElementById('botao4').innerHTML = 'X'
+            document.getElementById('botao5').innerHTML = 'X'
+            document.getElementById('botao6').innerHTML = 'X'
+            document.getElementById('botao7').innerHTML = 'X'
+            document.getElementById('botao8').innerHTML = 'X'
+            document.getElementById('botao9').innerHTML = 'X'
             break
         } else if (diagonal2[0] == 'O' && diagonal2[1] == 'O' && diagonal2[2] == 'O'){
             alert('O ganhou!!')
+            document.getElementById('jogadorDaVez').innerHTML = "O ganhou!"
+            document.getElementById('botao1').innerHTML = 'O'
+            document.getElementById('botao2').innerHTML = 'O'
+            document.getElementById('botao3').innerHTML = 'O'
+            document.getElementById('botao4').innerHTML = 'O'
+            document.getElementById('botao5').innerHTML = 'O'
+            document.getElementById('botao6').innerHTML = 'O'
+            document.getElementById('botao7').innerHTML = 'O'
+            document.getElementById('botao8').innerHTML = 'O'
+            document.getElementById('botao9').innerHTML = 'O'
             break
     }
     }
