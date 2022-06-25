@@ -7,7 +7,7 @@ function alterarTema () {
 /* Função para alterar o tema de escuro para claro */
 function voltarTema () {
     document.getElementById('tema').innerHTML = "<link rel='stylesheet' href='mystyle.css'>"
-    document.getElementById("temaBotao").innerHTML = '<button onclick="alterarTema()">Tema Escuro</button><button id="começarX"><a href="indexX.html">Começar com O</a></button><button><a href="frente..html">Voltar para início</a></button>'
+    document.getElementById("temaBotao").innerHTML = '<button onclick="alterarTema()">Tema Escuro</button><button id="começarX"><a href="X.html">Começar com O</a></button><button><a href="index.html">Voltar para início</a></button>'
     document.getElementById("botaoReinicio").innerHTML = '<img src="./restarbtn.jpg" width="35px" height="35px"onclick="reiniciar()"></img>'
 }
 
