@@ -1,7 +1,7 @@
 /* Função para alterar o tema de claro para escuro*/
 function alterarTema () {
     document.getElementById("tema").innerHTML = "<link rel='stylesheet' href='mystyle2.css'>"
-    document.getElementById("temaBotao").innerHTML = '<button onclick="voltarTema()">Tema Claro</button><button id="começarX"><a href="indexX.html">Começar com X</a></button><button><a href="frente..html">Voltar para início</a></button>'
+    document.getElementById("temaBotao").innerHTML = '<button onclick="voltarTema()">Tema Claro</button><button id="começarX"><a href="X.html">Começar com X</a></button><button><a href="index.html">Voltar para início</a></button>'
     document.getElementById("botaoReinicio").innerHTML = '<img src="./restarbtn.jpg" width="35px" height="35px"onclick="reiniciar()"></img>'
 }
 
